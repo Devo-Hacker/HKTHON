@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image:url(the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg) ;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    background: #220044;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.cell:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.cell.x {
+    color: #00f2ff;
+    text-shadow: 0 0 10px #00f2ff;
+}
+
+.cell.o {
+    color: #ff005d;
+    text-shadow: 0 0 10px #ff005d;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #ff005d;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #ff005d;
+}
+
+button:hover {
+    background: #ff3366;
+}
+
+#status {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:url(natures-beauty-reflected-tranquil-mountain-waters-generative-ai_188544-7867.avif)  no-repeat center center/cover;
+}
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+.signup-box {
+    padding: 30px;
+    background: white;
+}
+.signup-box h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.input-box {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.btn {
+    width: 100%;
+    background: pink;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn:hover {
+    background: #ff66b2;
+}
+.login-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(228, 228, 228);
+}
+.login-box a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.login-box a:hover {
+    background: white;
+    color: #4a47a3;
+}

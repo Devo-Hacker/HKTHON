@@ -1,0 +1,111 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background:rgb(255, 255, 255) ;
+            color: #222;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background-image: repeating-linear-gradient(to right,transparent 0 49px, #eee1 49px 50px),repeating-linear-gradient(to bottom, transparent 0 49px, #eee1 49px 50px);
+            border-bottom: 1px solid #ddd;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-icon {
+            font-size: 20px;
+            margin-right: 8px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+        }
+
+        .auth-buttons {
+            display: flex;
+            align-items: center;
+        }
+
+        .auth-buttons a {
+            text-decoration: none;
+            margin-left: 15px;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+
+        .login {
+            color: black;
+        }
+
+        .signup {
+            background-color: #5865F2;
+            color: white;
+        }
+        .signup:hover{
+           font-size: 20px;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 100px;
+            background-image: repeating-linear-gradient(to right,transparent 0 49px, #eee1 49px 50px),repeating-linear-gradient(to bottom, transparent 0 49px, #eee1 49px 50px);
+        }
+
+        .hero-text {
+            max-width: 50%;
+        }
+
+        .hero-text h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .hero-text p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: black;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+        }
+.btn:hover{
+    background-color: #ffffff;
+    color: black;
+    border: solid black;
+}
+        .hero-image {
+            width: 400px;
+            height: auto;
+            margin-left: 4%;
+        }
